@@ -1,0 +1,46 @@
+{
+  "name": "nodeanglarjs",
+  "version": "1.0.0",
+  "description": "hotels api consumer with front end",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha --bail --reporter nyan test/ServerSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hibaAkroush/nodeAnglarjs.git"
+  },
+  "keywords": [
+    "angularjs",
+    "nodejs"
+  ],
+  "author": "hiba akroush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hibaAkroush/nodeAnglarjs/issues"
+  },
+  "homepage": "https://github.com/hibaAkroush/nodeAnglarjs#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angularjs": "0.0.1",
+    "body-parser": "^1.18.2",
+    "chai-http": "^3.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "jsonminify": "^0.4.1",
+    "nodemon": "^1.17.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.1"
+  }
+}

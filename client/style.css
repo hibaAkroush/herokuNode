@@ -1,0 +1,140 @@
+body {
+    background-color: #EDEDED;
+    font-family: Helvetica Neue, Arial, Lucida Grande, sans-serif;
+    font-size: 14px;
+    color: #fffff6;
+    background-color: #FFCC00;
+}
+
+#arrow {
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+    height: 20px;
+    width: 30px;
+}
+#navBar p{
+    position: relative;
+    color: #00355F;
+    float: left;
+    width: 30%
+    padding-left: 5px;
+    margin-right: 5%;
+    top: 45px;
+    left: 86px;
+}
+#navBar{
+
+    height: 250px;
+    min-width: 100%;
+    position: relative;
+    bottom:950px;
+    z-index: -1;
+}
+body > img {
+    position: relative;
+    margin-top: 5px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#logo {
+    position: relative;
+    height: 40px;
+    width: 140px;
+    left: 85px;
+    bottom: 16px;
+}
+
+
+
+#box {
+    position: absolute;
+    height: 320px;
+    width: 265px;
+    z-index: -1;
+    opacity: 0.8;
+    background-color: black;
+    border-radius: 8px;
+}
+
+#hotelImage {
+    position: absolute;
+    border-radius: 8px;
+    height: 100px;
+    top: 200px;
+    padding-left: 10px;
+}
+
+#listHotels {
+    position: relative;
+    bottom: 530px;
+    left: 72px;
+    height: 115px;
+    width: 1100px;
+    z-index: 1;
+}
+
+#starLogo {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    bottom: 20px;
+    left: 220px;
+}
+
+#hotelStarRating {
+    position: relative;
+    left: 70px;
+    bottom: 55px;
+}
+
+#percentSavings {
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+
+#cityCountry {
+    position: absolute;
+    top: 105px;
+}
+
+p {
+    text-align: center;
+    max-width: 260px;
+}
+
+#crossOutPriceValue {
+    text-decoration: line-through;
+    color: #f92222;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    font-size: 16px;
+}
+
+#averagePriceValue {
+    color: #72d611;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+}
+
+#smallLine1 {
+    max-width: 200px;
+    position: relative;
+    top: 25px;
+}
+
+#smallLine2 {
+    position: relative;
+    max-width: 200px;
+    bottom: 60px;
+}
+
+#hotelStreetAddress {
+    position: relative;
+    bottom: 30px;
+}
