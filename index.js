@@ -16,12 +16,12 @@ var path = require('path');
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(__dirname + '/../client')); 
-app.use('/node_modules', express.static(__dirname + '/../node_modules'));
-app.use('/slick', express.static(__dirname + '/../slick'));
+app.use(express.static(__dirname + '/client')); 
+app.use('/node_modules', express.static(__dirname + '/node_modules'));
+app.use('/slick', express.static(__dirname + '/slick'));
 
-
-app.listen(process.env.PORT , function() {
+port = process.env.PORT  ||  9000;
+app.listen(port , function() {
     console.log('Application is listening on 9000');
 });
 
@@ -48,5 +48,5 @@ app.get('/data/hotels', function(req, res) {
 
 app.get('/', function(req, res){
     //sending the main screen
-    res.sendFile(path.join(__dirname + '/../client/main.html'));
+    res.sendFile(path.join(__dirname + '/client/main.html'));
 })
